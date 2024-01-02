@@ -1241,7 +1241,7 @@ class Jenie:
 
     def corr_linnarson(self, group="leiden", treatment=("",""), order_x=["Granule-immature", "Granule-mature", "Neuroblast_2","Neuroblast_1", "Radial_Glia-like", "nIPC"], order_genes = [], annot=False):
         plt.style.use("dark_background")
-        refdata = sc.read("../Data/datasetA.h5ad")
+        refdata = sc.read("../DataF/supfig5/datasetA.h5ad")
 
         sc.pp.normalize_total(refdata)
         sc.pp.log1p(refdata)
@@ -1357,7 +1357,7 @@ class Jenie:
         sc.pl.pca_overview(self.data, color=color)
     
     def corr_cebrian(self, group="leiden", treatment=("",""), order_genes=[], order_x = ["Ependymal cells", "B cells", "Mitosis","A cells"], annot=False):
-        refdata = sc.read("../Data/bullya/data.h5ad")
+        refdata = sc.read("../DataF/supfig5/data.h5ad")
 
         plt.style.use('dark_background')
 
