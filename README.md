@@ -36,7 +36,7 @@ This repository contains Jupyter notebooks in the `Notebooks` directory used to 
 > **_NOTE:_**  This is crucial as python 3.10.13 does not work
 
 ### Download Data
-Get Data from [here](https://drive.google.com/drive/u/5/folders/1ZaUEtwhQiN9tuSHJH3GDiitm5PXcZQeQ)
+<!-- Get Data from [here](https://drive.google.com/drive/u/5/folders/1ZaUEtwhQiN9tuSHJH3GDiitm5PXcZQeQ) -->
 It should be in the directory `DataF` with the structure of:
 ```
 ├── DataF
